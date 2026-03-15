@@ -1,0 +1,12 @@
+name: Verify Human Identity
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify Human
+        run: echo "Human verification triggered"
